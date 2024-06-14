@@ -8,7 +8,7 @@ int main(){
 	if (n <= 0){
 		cout << "ERROR, introduce un numero positivo" << endl;
 	}
-	for (int i ; i <= n ; i++){
+	for (int i = 1 ; i <= n ; i++){
 		cout << 7 * i << " ";
 	}
 	return 0;
